@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em html5</title>
+</head>
+<body>
+    <h1>imagem dinâmica</h1>
+    <p>tente abrir essa página em dispositivos diferentes ou oumente e diminua o seu navegador.</p>
+    <picture> 
+      <source media="(max-width:750px)" srcset="images/foto-p.png" type="image/png">
+      <source media="(max-width: 1050px)" srcset="images/foto-m.png" type="image/png">
+      <img src="images/foto-g.png" alt="foto flexivel">
+    </picture>
+    <h2>Adicionando aúdio no nosso site</h2>
+    <p>Usa-se a tag audio.</p>
+    <audio src="audio/02 - MAS QUE DECEPÇÃO -  Tarcísio do Acordeon e João Gomes.mp3" controls autoplay>tarcíciodo Acordeon</audio>
+</body>
+</html>
