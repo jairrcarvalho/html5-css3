@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* Estilos para impressao*/
+*{
+    margin: 10px;
+    padding: 10px;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+
+}
+menu{
+    display: none;
+
+}
+article::after{
+    
+    font-size: 0.7em;
+    font-weight: bold;
+    content: "este atigo foi feito no dia 14/08/2022";
+}

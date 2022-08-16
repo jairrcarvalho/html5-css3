@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de formulario04 </title>
+</head>
+<body>
+    <h1>Formulario 04</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>DADOS PESSOAIS</legend>
+            <P>
+                <label for="inome">NOME</label>
+                <input type="text" name="nome" id="inome" minlength="5" requiered>
+            </P>
+            <p>
+               <label for="itel">TELEFONE:</label>
+               <input type="tel" name="tel" id="itel" required  placeholder="x xxxx-xxxx">
+               <!--estudar mais sobre expressões regulares RegEx-->
+            </p>
+            <p>
+                <label for="iemail">EMAIL</label>
+                <input type="email" name="email" id="iemail" requered placeholder="abcd@gmail.com">
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="LIMPAR">
+        </p>
+        
+
+
+    </form>
+    
+
+    
+</body>
+</html>
